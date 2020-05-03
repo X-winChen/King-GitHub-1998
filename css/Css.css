@@ -22,7 +22,7 @@ body{
 	text-align: center;
 	display:block;	
 }
-@media(max-width:62.5rem)  {
+@media(max-width:76.375rem){
 	#Navigation{
 		display: none;
 	}
