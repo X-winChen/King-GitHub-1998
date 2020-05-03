@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="icon" href="img/Ico/favicon.ico" type="image/x-ico" />
 		<meta charset="utf-8" />
 		<title>首页</title>
+		<script src="js/vue.js" type="text/javascript" charset="UTF-8"></script>
+		<link href="css/Css.css" type="text/css" rel="stylesheet"/>
 	</head>
 	<body>
-		<h1>Hello World--King</h1>
-		
+		<!--<h1>Hello World--King</h1>-->
+	<!--	<div id="app">{{name}}</div>
+		<script type="text/javascript">
+			var data={name:1};
+			data.name="Vue"
+			var vue=new Vue({
+				el:"#app", 
+				data:data
+			}); 
+			//vue.name="Vue";
+			vue.$watch('name',function(newVal,oldVal){
+				console.log(newVal,oldVal);
+			})
+				
+			vue.$data.name="xxx"
+		</script>	-->	
+		<div id="title_Div">
+			<h1 id="title">{{title}}</h1>
+		</div>
+		<ul id="Navigation">
+			<li>{{HomePage}}</li>
+			<li>{{AboutMe}}</li>
+			<li>{{TechnicalPart}}</li>
+			<li>{{TravelPart}}</li>
+			<li>{{ArtPart}}</li>
+			<li>{{Blog}}</li>
+		</ul>
+		<div id="Img"><!--首页图片播放-->
+			<img>
+		</div>
+		<div id="AboutMe_Div"><!-- 关于我-->
+			
+		</div>
+		<div id="TechnicalPart_Div"><!--技术篇 -->
+			
+		</div>
+		<div id="TravelPart_Div"><!--旅行篇-->
+			
+		</div>
+		<div id="ArtPart_Div"><!--艺术篇-->
+			
+		</div>
+		<div id="Blog_Div"><!--博客-->
+			
+		</div>
 	</body>
 </html>
